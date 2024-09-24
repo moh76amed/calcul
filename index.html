@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حساب العمر</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>أهلاً وسهلاً بك في تطبيق حساب العمر!</h1>
+        <p>من إعداد المدرب لمو محمد</p>
+        <label for="birthdate">أدخل تاريخ ميلادك:</label>
+        <input type="date" id="birthdate">
+        <button onclick="calculateAge()">احسب العمر</button>
+        <button onclick="resetCalculator()">إعادة الحساب</button>
+        <div id="result"></div>
+        <div id="dayOfWeek"></div> <!-- خانة خاصة لليوم الموافق -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
